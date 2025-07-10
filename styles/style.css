@@ -145,3 +145,20 @@ header {
   justify-content: space-between;
   margin: 40px 0px 60px;
 }
+/* user feedback section styles */
+.user-feedback {
+  width: 1140px;
+  height: 342px;
+  margin: 137px 150px 137px;
+}
+.user-feedback-header h2 {
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  color: #252432;
+}
+.user-feedback-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
