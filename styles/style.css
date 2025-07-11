@@ -116,7 +116,7 @@ header {
 .action-image img {
   border-radius: 48px;
 }
-/* productive user styles  */
+/* productive user section styles  */
 .productive-user {
   width: 1140px;
   height: 306px;
@@ -289,6 +289,7 @@ header {
 .contact-right input[type="button"] {
   background-color: #4e47ff;
   color: #ffffff;
+  padding: 0;
 }
 .contact-right input[type="button"]:hover {
   background-color: blue;
