@@ -15,6 +15,7 @@
   font-style: normal;
 }
 body {
+  background-color: #4d47ff47;
 }
 /* shared color */
 .btn {
@@ -234,4 +235,59 @@ header {
 .focus-banner img {
   border-radius: 48px;
   margin: 20px 150px 70px;
+}
+/* contact section style */
+.contact {
+  width: 1140px;
+  height: 632px;
+  display: flex;
+  gap: 115px;
+
+  align-items: center;
+  justify-content: space-between;
+  margin: 90px 150px 12px;
+}
+.contact-left {
+  width: 528px;
+  height: 232px;
+}
+.contact-left h1 {
+  font-size: 97px;
+  font-weight: 900;
+  text-wrap: nowrap;
+}
+
+.contact-right label {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+.contact-right input {
+  width: 497px;
+  height: 70px;
+  background-color: #ffffff;
+  /* border: none; */
+
+  border-radius: 10px;
+  padding-left: 32px;
+  font-size: 20px;
+}
+.contact-right textarea {
+  height: 135px;
+  width: 497px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding-left: 32px;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.contact-right input[type="button"] {
+  background-color: #4e47ff;
+  color: #ffffff;
+}
+.contact-right input[type="button"]:hover {
+  background-color: blue;
+  color: white;
 }
