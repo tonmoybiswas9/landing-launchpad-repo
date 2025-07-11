@@ -156,9 +156,44 @@ header {
   font-weight: bold;
   text-align: center;
   color: #252432;
+  margin-bottom: 50px;
 }
 .user-feedback-card {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.star-icon img {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+.feedback h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.feedback p {
+  font-size: 15px;
+}
+.feedback-profile {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  margin-top: 24px;
+}
+.profile-image img {
+  border-radius: 50%;
+}
+.profile-details h5 {
+  font-size: 15px;
+}
+.user-feedback-box {
+  width: 366px;
+  height: 243px;
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.249);
+  margin-right: 20px;
 }
