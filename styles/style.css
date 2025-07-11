@@ -15,7 +15,7 @@
   font-style: normal;
 }
 body {
-  background-color: #4d47ff22;
+  background-color: #4d47ff0d;
 }
 /* shared color */
 .btn {
@@ -267,7 +267,7 @@ header {
   width: 497px;
   height: 70px;
   background-color: #ffffff;
-  /* border: none; */
+  border: none;
 
   border-radius: 10px;
   padding-left: 32px;
@@ -281,6 +281,7 @@ header {
   padding-left: 32px;
   font-size: 20px;
   padding-top: 20px;
+  border: none;
 }
 
 .contact-right input[type="button"] {
