@@ -15,7 +15,7 @@
   font-style: normal;
 }
 body {
-  background-color: #4d47ff47;
+  background-color: #4d47ff22;
 }
 /* shared color */
 .btn {
@@ -203,7 +203,7 @@ header {
   width: 1140px;
   height: 696px;
   margin: 137px 150px 70px;
-
+  padding-top: 70px;
   border-radius: 14px;
   background-color: #ffffff;
 }
@@ -290,4 +290,41 @@ header {
 .contact-right input[type="button"]:hover {
   background-color: blue;
   color: white;
+}
+/* footer section styles */
+.footer {
+  width: 1440px;
+  height: 428px;
+  padding: 104px 455px 105px 454px;
+  background-color: #ffffff;
+}
+.footer-card h1 {
+  font-size: 100px;
+  font-weight: 900;
+  color: #4e47ff;
+
+  text-align: center;
+  margin-bottom: 8px;
+}
+.footer-description {
+  font-size: 15px;
+  text-align: center;
+  text-wrap: wrap;
+  margin-bottom: 20px;
+}
+.footer-navbar nav ul {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  text-align: center;
+  justify-content: center;
+}
+.footer-navbar nav ul li a {
+  text-decoration: none;
+  color: #252432;
+  text-align: center;
+}
+.footer-navbar nav ul li a:hover {
+  text-decoration: underline;
+  color: #4e47ff;
 }
