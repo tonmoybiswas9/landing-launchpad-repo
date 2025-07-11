@@ -197,3 +197,41 @@ header {
   box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.249);
   margin-right: 20px;
 }
+/* focus section style */
+.focus {
+  width: 1140px;
+  height: 696px;
+  margin: 137px 150px 70px;
+
+  border-radius: 14px;
+  background-color: #ffffff;
+}
+.focus-title h1 {
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.focus-title p {
+  font-size: 15px;
+  text-align: center;
+  color: #2524328d;
+  margin-bottom: 20px;
+}
+.focus-btn button {
+  padding: 12px 36px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.focus-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.focus-banner img {
+  border-radius: 48px;
+  margin: 20px 150px 70px;
+}
